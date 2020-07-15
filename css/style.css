@@ -1,0 +1,337 @@
+/* Navegador */
+.containerNav {
+  opacity: 90%;
+  position: sticky;
+  top: 0px;
+  z-index: 2; }
+
+.navbar {
+  margin-bottom: 0px !important;
+  border: 0px !important;
+  border-radius: 0px !important;
+  line-height: 3.2 !important; }
+
+.navbar-default {
+  background-color: black;
+  opacity: 90%;
+  padding: 20px;
+  position: sticky;
+  top: 0px;
+  z-index: 2; }
+
+.navbar-header {
+  margin-top: 15px;
+  margin-bottom: 15px; }
+
+.navbar-toggle {
+  border: none !important;
+  padding: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  color: white !important;
+  background-color: none !important; }
+
+.navbar-toggle:hover {
+  background-color: none !important;
+  transform: scale(1.2);
+  transition: transform 0.5s; }
+
+.navegador {
+  padding: 0px !important;
+  justify-content: flex-end;
+  list-style: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  display: flex; }
+
+.dropdown-toggle {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin-top: 0;
+  border: none;
+  border-radius: 0;
+  padding: 5px;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  background-color: black;
+  opacity: 100%; }
+
+li {
+  justify-content: flex-end;
+  padding: 0px 30px 0px 0px; }
+  li a:hover {
+    color: #FAE1DF;
+    transition: font-size 1s;
+    text-decoration: none; }
+
+.isologo {
+  margin-left: 10px; }
+
+/* Color href*/
+.aNav {
+  color: white;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif; }
+
+.dropdown-menu {
+  font: 18px;
+  text-decoration: none; }
+
+h1 {
+  font-family: "Bebas Kai";
+  font-size: 50px;
+  color: black;
+  text-align: center; }
+
+.texto {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  text-align: center; }
+
+/* Inicio nosotros */
+.containerNosotros {
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+.Intro {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  text-align: justify; }
+
+.banner {
+  animation: animate__fadeIn; }
+
+/* Banner 
+.parallax {
+  background-color: black;
+  height: 500px;
+  background-attachment: scroll;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+/* Inicio productos */
+.containerProductos {
+  margin-top: 100px;
+  margin-left: 20px;
+  margin-right: 20px; }
+
+.productos {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-family: tipografia2;
+  font-size: 20px;
+  position: relative; }
+
+.thumbnail {
+  border: 0px; }
+
+.nombreProductos {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+
+h4 {
+  font-family: "Bebas Kai";
+  font-size: 35px;
+  color: white;
+  opacity: 0; }
+
+a h4:hover {
+  opacity: 1;
+  transition: opacity 0.5s; }
+
+.imgProd:hover {
+  opacity: 50%; }
+
+/*
+.backProd {
+	position: absolute;
+	background-color: $color__rojo;
+	width: 100%;
+	height: 100%;
+	opacity: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+} */
+/* Fin productos */
+/* Inicio servicios */
+.containerServicios {
+  background-color: #E02D47;
+  padding: 65px;
+  margin-top: 100px; }
+
+.tituloBlanco {
+  font-family: "Bebas Kai";
+  font-size: 50px;
+  text-align: center;
+  color: white;
+  margin-bottom: 30px; }
+
+h3 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: white; }
+
+.textoBlanco {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+  text-align: justify;
+  padding: 5px; }
+
+.servicios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation-duration: 1.5s; }
+
+/* Fin servicios */
+/* Inicio franquicias */
+.containerFranquicias {
+  background-color: transparent;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 50px; }
+
+.Intro {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  justify-content: justify;
+  margin-bottom: 20px; }
+
+.imgFranq {
+  margin-top: -20px; }
+
+.btnbtn-primary {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-size: 15px;
+  border: 1px;
+  background-color: #FAE1DF;
+  padding: 10px;
+  margin-top: 15px; }
+
+.btnbtn-primary:hover {
+  font-size: 17px;
+  transition: font-size 0.5s;
+  color: #E02D47;
+  text-decoration: none; }
+
+/* Fin franquicias */
+/* Inicio contacto */
+.containerContacto {
+  background-color: #FAE1DF;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column; }
+
+.mapa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20px; }
+
+h5 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: black;
+  margin-top: 30px; }
+
+.aNegro {
+  color: black;
+  font-size: 20px;
+  font-family: "Roboto", sans-serif; }
+
+.aNegro:hover {
+  color: #E02D47;
+  text-decoration: none; }
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 200px 30px 200px;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px; }
+
+label {
+  padding: 5px; }
+
+input {
+  padding: 5px;
+  border: none; }
+
+.buttom {
+  color: white;
+  background: #E02D47;
+  opacity: 80%;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px; }
+
+.buttom:hover {
+  font-size: 22px;
+  transition: font-size 0.5s; }
+
+.link {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  text-align: center;
+  color: black;
+  padding: 20px; }
+
+.link a:hover {
+  color: #E02D47;
+  font-size: 22px;
+  text-decoration: none;
+  transition: font-size 0.5s; }
+
+/* Fin contacto */
+/* Inicio footer */
+.containerFooter {
+  background-color: black;
+  padding: 70px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  align-items: center; }
+
+.footerTexto {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  font-size: 18px; }
+
+.footerTexto li {
+  list-style: none; }
+
+.footerRedes {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .footerRedes a {
+    padding: 5px; }
+
+.logoFooter {
+  line-height: 20 !important;
+  justify-content: center; }
+
+/* Fin footer */
